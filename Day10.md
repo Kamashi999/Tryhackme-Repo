@@ -76,3 +76,15 @@ GPO to zestawy zasad konfiguracyjnych, które automatycznie stosują się do uż
 ```bash
 gpupdate /force
 ```
+
+---
+
+### SYSVOL w Active Directory
+
+**SYSVOL** (System Volume) to folder udostępniany przez kontrolery domeny w Active Directory, który przechowuje i udostępnia pliki związane z konfiguracją domeny oraz politykami grupowymi (GPO) i skryptami logowania.
+
+### Co zawiera SYSVOL?
+1. **Polityki grupowe (GPO)**
+2. **Skrypty logowania**
+
+SYSVOL jest kluczowy dla prawidłowego funkcjonowania Active Directory, zapewniając replikację polityk i skryptów między kontrolerami domeny.
